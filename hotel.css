@@ -1,0 +1,123 @@
+body{margin:0;
+width:100%;
+font-family: serif;
+height:auto;
+background-color:white}
+header{display:flex;
+flex-direction: column;}
+.navbar{display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding:10px;
+position: sticky;
+-webkit-position:sticky;
+top:0;
+background-color: floralwhite;}
+.navbar a{text-align: center;
+text-decoration: none;}
+.nav-links{padding:15px;}
+.nav-links:hover{border-top: 1px solid brown;}
+.bookings{
+padding:30px;}
+.header-form{display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;}
+.inputs{margin-top:-10px;
+border:opx solid white;
+border-radius: 3px;
+width:200px;}
+.submit{margin-top: 30px;}
+.top{display: flex;
+flex-direction: column;
+width:100%;}
+.top-footer{display: flex;
+color: white;
+background-color: antiquewhite;
+justify-content: space-between;}
+.top-footer > a{padding:20px 0 20px 0;
+text-align: center;
+text-decoration: none;
+color: darkgrey;
+width:100%;}
+.top-footer>a:hover{background-color: aliceblue;}
+.welcome{display:flex;
+text-align: center;
+justify-content: center;}
+.welcome-center{width:70%;}
+.welcome-flex{display:flex;
+width:100%;
+text-align: justify;}
+.main-img{width:100%;}
+.middle-flex{display: flex;
+flex-direction:row;
+max-height:auto;
+padding:0 20px 10px 20px;}
+.middle-flex-big{width:40%;
+border: 1px solid black;
+align-items: stretch;
+background: url("images/relaxation%20pool.jpg") no-repeat center;
+background-size: cover;
+max-height:405px}
+.middle-flex-second{width:60%;
+display:flex;
+flex-direction: column;
+border:1px solid black;
+max-height:400px;
+height:400px;}
+.middle-topflex{border:1px solid white;
+flex: 1;
+display:flex;
+height:200px;
+max-height: 200px;
+flex-direction: row;}
+.food{flex:1;
+height:200px;
+max-height:200px;
+border: 1px solid white;
+background: url("images/food.jpg") no-repeat center;
+background-size: cover;}
+.our-rooms{flex:1;
+height:200px;
+max-height: 200px;
+border: 1px solid white;
+background: url("images/bedroom%20hotel.jpg") no-repeat center;
+background-size: cover;}
+.middle-downflex{border:1px solid white;
+flex:1;
+height:200px;
+max-height:200px;
+display:flex;
+flex-direction: row;}
+.special-offers{flex:1;
+height:200px;
+max-height: 200px;
+border: 1px solid white;
+background: url("images/swimming%20pool.jpg") no-repeat center;
+background-size: cover;}
+.location{flex:1;
+height:200px;
+max-height: 200px;
+border: 1px solid white;
+background: url(images/main%20outside%20view.jpg) no-repeat center;
+background-size: cover;}
+.middle-flex-caption{text-align: center;
+color: white;
+border: 1px solid gray;}
+.newsletter{text-align: center;}
+.small-text{font-size: 8px;}
+.submit{padding:15px;
+background-color: transparent;}
+@media (max-width:600px){.middle-flex{flex-direction: column;
+    justify-content: center;
+    margin:0;}
+    .middle-flex-big{width: 100%;}
+    .middle-flex-second{width:100%;}
+    .middle-topflex{width:100%;}
+    .food{width:100%;}
+    .our-rooms{width: 100%;}
+    .middle-downflex{width: 100%;}
+    .special-offers{width:100%;}
+    .location{width:100%;}
+    .welcome-flex{flex-direction: column;}
+    .welcome-center{width:100%}
+}
